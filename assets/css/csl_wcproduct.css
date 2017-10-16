@@ -1,0 +1,110 @@
+/* CSS for your custom element goes here */
+.csl-wc-product {
+	float:left;	
+}
+
+.csl-wc-product a {
+	outline: none;
+}
+
+.csl-wc-product:before {
+	display: table;
+	content: " ";
+}
+
+.csl-wc-product:after {	
+	clear: both;
+ }
+
+.csl-wc-product .csl-wc-entry-featured {
+    position: relative;
+    box-shadow: 4px 2px 4px -4px rgba(0,0,0,0.135), -4px 2px 4px -4px rgba(0,0,0,0.135);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.csl-wc-product	.csl-wc-entry-wrap {
+	display: block;
+	padding: 0px;
+	background-color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+}
+
+.csl-wc-product	.csl-wc-entry-header { 
+    font-size: 1rem;
+}
+
+
+.csl-wc-product	.csl-wc-entry-header .csl-wc-title {
+	padding: 10px 0 10px 0;
+	margin: 0px;
+}
+
+.csl-wc-product	.csl-wc-button {	
+	border: 0;
+	border-top-color: currentcolor;
+	border-right-color: currentcolor;
+	border-bottom-color: currentcolor;
+	border-left-color: currentcolor;
+	background: 0 0;
+	background-color: rgba(0, 0, 0, 0);
+	background-color: #43454b;
+	border-color: #43454b;
+	color: #fff;
+	cursor: pointer;
+	padding: .6180469716em 1.41575em;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	display: inline-block;
+	outline: 0;
+	-webkit-appearance: none;
+	-webkit-font-smoothing: antialiased;
+	border-radius: 0;	
+}
+
+.csl-wc-product	.csl-wc-addtocart {
+    background-color: #96588a;
+    border-color: #96588a;
+    color: #ffffff;
+}
+
+.csl-wc-product .csl-wc-cart-button {
+	padding: 10px 0 10px 0;
+}
+
+
+.csl-wc-product.csl-wc-horizontal .csl-wc-entry-featured {
+	float:left;
+}
+
+.csl-wc-product.csl-wc-horizontal .csl-wc-entry-wrap {
+	float:left;
+	text-align: left;
+	padding: 15px;
+}
+
+.csl-wc-product .csl-view-more {
+    position: absolute;    
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0.45em 0.5em 0.575em;
+    display: none;
+    font-size: 14px;	
+	bottom: 20px;
+	text-align: center;	
+}
+
+.csl-wc-product .csl-view-more a {
+	padding: 10px;
+	background-color: rgba(255,255,255,0.8);
+	text-decoration: none;
+	color:#43454b;
+}
+
+.csl-wc-product .csl-wc-entry-featured:hover .csl-view-more {
+	display:block;
+}
