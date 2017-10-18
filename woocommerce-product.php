@@ -2,7 +2,7 @@
 /*
 Plugin Name: Cornerstone Library: Woocommerce Product
 Plugin URI:  http://cornerstonelibrary.com/
-Description: Adds a new element to Cornerstone - a woocommerce product
+Description: Adds a new element to Cornerstone - Woocommerce product
 Version:     0.1
 Author:      Ruel Cena
 Author URI:  http://bigwilliam.com
