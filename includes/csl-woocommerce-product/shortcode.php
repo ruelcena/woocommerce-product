@@ -34,6 +34,9 @@ $product_image = wp_get_attachment_url( $product->get_image_id() );
 //Box shadow
 $box_shadow = ( $box_shadow ) ? 'csl-wc-box-shadow' : '';
 
+//orientation update
+$if_horizontal = ( $orientation == 'horizontal' )?'width:auto;position:relative;':'';
+
 //Added css class
 $class = "csl-wc-product csl-wc-$orientation $box_shadow" . $class;
 
@@ -42,7 +45,7 @@ $button_style = sprintf("color:%s;background-color:%s;border-color:%s;", $button
 
 ?>
 
-<div <?php echo cs_atts( array( 'id' => $id, 'class' => $class ) ); ?>>
+<div <?php echo cs_atts( array( 'id' => $id, 'class' => $class , 'style' => $style ) ); ?>>
 
   <div class="csl-wc-entry-featured">
     
@@ -58,7 +61,7 @@ $button_style = sprintf("color:%s;background-color:%s;border-color:%s;", $button
 
   </div>
 
-  <div class="csl-wc-entry-wrap">
+  <div class="csl-wc-entry-wrap" style="<?php echo $if_horizontal;?>">
     
   <header class="csl-wc-entry-header">
     

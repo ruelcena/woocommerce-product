@@ -18,9 +18,9 @@ return array(
 	// Product
 	// Todo: change type into autocomplete to avoid product list overload
 	'product_id' => array(
-		'type'    => 'select',
+		'type'    => 'select',		
 		'ui'      => array(
-			'title'   => __( 'Products', 'cs-wc-product' )
+			'title'   => __( 'Products', 'cs-wc-product' )			
 		),
 		'options' => array(
 			'choices' => $products

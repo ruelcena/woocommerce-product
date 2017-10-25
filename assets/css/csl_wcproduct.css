@@ -32,6 +32,7 @@
     transform: translate3d(0, 0, 0);
 }
 
+
 .csl-wc-product	.csl-wc-entry-wrap {
 	display: block;
 	padding: 0px;
@@ -125,6 +126,11 @@
 .csl-wc-product .csl-wc-entry-featured:hover .csl-view-more {
 	display:block;
 }
+
+.csl-wc-product.csl-wc-horizontal .csl-view-more {
+	padding:0px;
+}
+
 
 
 @keyframes fadein {
